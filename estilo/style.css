@@ -18,6 +18,7 @@
 --font2: 'Passion One', cursive;
 --font3: 'Sriracha', cursive;
 
+
 }
 
 html, body {
@@ -25,10 +26,11 @@ html, body {
         font-family: var(--font1);
 }
 header {
-    background-color: black;
+    background-color:#771E20;
     color: white;
     text-align: center;
-    font-family: var(--font2)
+    font-family: var(--font3)
+
 
 }
 header > h1 {
@@ -40,6 +42,9 @@ header > h1 {
 header > p {
     padding-bottom: 50px;
 
+}
+header a {
+    <a href="https://universidadedevassouras.edu.br/"> Acesse o site</a>
 }
 header a, footer a {
     color: white;
@@ -81,13 +86,14 @@ section.imagem > p {
     text-shadow: 1px 1px 0px black;
 }
 section#img01 {
-    background-image: url('../imagens/background001.jpg');
-    background-position: right center;
+    background-image: url('../imagens/universidade.jpeg');
+    background-position: center;
     background-size: cover;
 }
 section#img02 {
-    background-image: url('../imagens/background002.jpg');
+    background-image: url('../imagens/praca.jpg');
     background-size: cover;
+    background-position: center;
 }
 footer {
     background-color: black;
